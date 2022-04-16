@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: museo;
+    font-weight: 100;
+    src: url("../fonts/Museo-Thin.woff2");
+}
+
+@font-face {
+    font-family: museo;
+    font-weight: 200;
+    src: url("../fonts/Museo-ExtraLight.woff2");
+}
+
+@font-face {
+    font-family: museo;
+    font-weight: 300;
+    src: url("../fonts/Museo-Light.woff2");
+}
+
+@font-face {
+    font-family: museo;
+    font-weight: 400;
+    src: url("../fonts/Museo-Regular.woff2");
+}
+
+@font-face {
+    font-family: museo;
+    font-weight: 500;
+    src: url("../fonts/Museo-Medium.woff2");
+}
+
+@font-face {
+    font-family: museo;
+    font-weight: 600;
+    src: url("../fonts/Museo-SemiBold.woff2");
+}
+
+@font-face {
+    font-family: museo;
+    font-weight: 700;
+    src: url("../fonts/Museo-Bold.woff2");
+}
+
+@font-face {
+    font-family: museo;
+    font-weight: 800;
+    src: url("../fonts/Museo-ExtraBold.woff2");
+}
+
+@font-face {
+    font-family: museo;
+    font-weight: 900;
+    src: url("../fonts/Museo-Black.woff2");
+}
