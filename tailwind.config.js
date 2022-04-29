@@ -19,6 +19,7 @@ module.exports = {
       neue: ['neue', defaultTheme.fontFamily.sans]
     },
     extend: {},
+
   },
   plugins: [],
 }
