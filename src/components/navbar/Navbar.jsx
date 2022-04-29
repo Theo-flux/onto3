@@ -53,14 +53,14 @@ const MobileNav = ({className, handler, isActive}) => {
                                 key={index}
                                 onClick={() => handler()} 
                                 href={item.link}
-                                className="mb-4 py-2 text-center border text-[14px] tracking-[.1em] font-oxanium border-gray w-full"
+                                className="mb-4 py-4 text-center border text-[14px] tracking-[.1em] font-oxanium border-gray w-full"
                             >
                                 {item.name}
                             </a>
                         )
                     })
                 }
-                <Button onClick={() => handler()} className="bg-[#67EFA480] w-full text-center">Launch App</Button>
+                <Button onClick={() => handler()} className="bg-[#67EFA480] w-full text-center py-4">Launch App</Button>
             </div>
             
         </div>
