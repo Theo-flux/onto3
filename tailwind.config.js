@@ -12,6 +12,7 @@ module.exports = {
       white: "var(--color-white)",
       green: "var(--color-green)",
       bunker: "var(--color-bunker)",
+      gray: "var(--color-gray)"
     },
 
     fontFamily: {

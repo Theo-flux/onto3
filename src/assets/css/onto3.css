@@ -5,6 +5,7 @@
     --color-black: #151B22;
     --color-white: #ffffff;
     --color-bunker : #0B1218;
+    --color-gray: #a5acaf;
 }
 
 @tailwind base;
