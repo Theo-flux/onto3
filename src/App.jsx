@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import "./assets/css/onto3.css";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className='font-museo border'>
-      App
+
+    <div className="font-oxanium text-7xl text-green font-bold w-full h-[100vh] flex items-center justify-center">
+      ONTO3
     </div>
   )
 }

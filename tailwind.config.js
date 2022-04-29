@@ -5,12 +5,21 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        museo: ["museo", ...defaultTheme.fontFamily.sans],
-        sans: ["museo", ...defaultTheme.fontFamily.sans],
-      },
+    colors: {
+      transparent: "transparent",
+      current: "currentColor",
+      black: "var(--color-black)",
+      white: "var(--color-white)",
+      green: "var(--color-green)",
+      bunker: "var(--color-bunker)",
     },
+
+    fontFamily: {
+      oxanium: ['oxanium', defaultTheme.fontFamily.sans],
+      neue: ['neue', defaultTheme.fontFamily.sans]
+    },
+    extend: {},
+
   },
   plugins: [],
 }

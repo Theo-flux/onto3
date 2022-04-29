@@ -1,0 +1,76 @@
+@import url("./main.css");
+
+:root {
+    --color-green: #67EFA4;
+    --color-black: #151B22;
+    --color-white: #ffffff;
+    --color-bunker : #0B1218;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Oxanium Font */
+@font-face {
+    font-family: oxanium;
+    font-weight: 200;
+    src: url("../fonts/oxanium/Oxanium-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: oxanium;
+    font-weight: 300;
+    src: url("../fonts/oxanium/Oxanium-Light.ttf");
+}
+
+@font-face {
+    font-family: oxanium;
+    font-weight: 400;
+    src: url("../fonts/oxanium/Oxanium-Regular.ttf");
+}
+
+@font-face {
+    font-family: oxanium;
+    font-weight: 500;
+    src: url("../fonts/oxanium/Oxanium-Medium.ttf");
+}
+
+@font-face {
+    font-family: oxanium;
+    font-weight: 600;
+    src: url("../fonts/oxanium/Oxanium-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: oxanium;
+    font-weight: 700;
+    src: url("../fonts/oxanium/Oxanium-Bold.ttf");
+}
+
+@font-face {
+    font-family: oxanium;
+    font-weight: 800;
+    src: url("../fonts/oxanium/Oxanium-ExtraBold.ttf");
+}
+
+
+/* Neue-Machina Font */
+@font-face {
+    font-family: neue;
+    font-weight: 300;
+    src: url("../fonts/neue-machina/NeueMachina-Light.otf");
+}
+
+@font-face {
+    font-family: neue;
+    font-weight: 400;
+    src: url("../fonts/neue-machina/NeueMachina-Regular.otf");
+}
+
+@font-face {
+    font-family: neue;
+    font-weight: 500;
+    src: url("../fonts/neue-machina/NeueMachina-Ultrabold.otf");
+}
