@@ -5,7 +5,7 @@ import "./assets/css/onto3.css";
 function App() {
 
   return (
-    <div className="f">
+    <div className="">
       <Navbar/>
     </div>
   )
