@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import { Navbar } from '../src/components';
 import "./assets/css/onto3.css";
 
 function App() {
 
   return (
-    <div className="font-oxanium text-7xl text-green font-bold w-full h-[100vh] flex items-center justify-center">
-      ONTO3
+    <div className="f">
+      <Navbar/>
     </div>
   )
 }
