@@ -3,7 +3,7 @@ import { Button } from "../shared";
 
 function Newsletter({className}) {
   return (
-    <div className={`${className} w-full max-w-[280px] md:max-w-[280px] lg:max-w-[340px]`}>
+    <div className={`${className} w-full max-w-[300px] md:max-w-[280px] lg:max-w-[340px]`}>
         <div className="font-neue mb-4">
             <h4 className="font-bold text-white mb-1 ">Stay up to date</h4>
             <p className="text-[13px] text-gray">Get early access to our news & releases</p>

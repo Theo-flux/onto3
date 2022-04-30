@@ -108,14 +108,14 @@ function Footer() {
         <Div>
             <div>
                 <div className="mb-8 md:mb-16 flex flex-col md:flex-row justify-between items-start">
-                    <figure className="mb-8 md:m-0">
+                    <figure className="mb-12 md:m-0">
                         <img src={onto3Logo} className="w-[70px] h-[70px]" alt="onto3-logo"/>
                     </figure>
 
                     {
                         onto3.map((el, index) => {
                             return(
-                                <div key={index} className="font-neue mb-8 md:m-0 order-2 md:order-1">
+                                <div key={index} className={`font-neue ${index == el.length - 1 ? "mb-0" : "mb-12"} md:m-0 order-2 md:order-1`}>
                                     <h4 className="text-white font-bold mb-4 ">{el.category}</h4>
 
                                     <div className="flex flex-col">
@@ -132,7 +132,7 @@ function Footer() {
                         })
                     }
 
-                    <Newsletter className="order-1 mb-8 md:m-0 md:order-2"/>
+                    <Newsletter className="order-1 mb-12 md:m-0 md:order-2"/>
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-between md:items-center">
