@@ -116,13 +116,13 @@ function Footer() {
                         onto3.map((el, index) => {
                             return(
                                 <div key={index} className="font-neue mb-8 md:m-0 order-2 md:order-1">
-                                    <h4 className="text-white font-bold mb-4 text-xs lg:text-base">{el.category}</h4>
+                                    <h4 className="text-white font-bold mb-4 ">{el.category}</h4>
 
                                     <div className="flex flex-col">
                                         {
                                             el.items.map((item, index) => {
                                                 return(
-                                                    <a key={index} className={`text-gray cursor-pointer text-xs lg:text-base ${index == el.items.length - 1 ? "mb-0" : "mb-4"}`}>{item.name}</a>
+                                                    <a key={index} className={`text-gray cursor-pointer ${index == el.items.length - 1 ? "mb-0" : "mb-4"}`}>{item.name}</a>
                                                 )
                                             })
                                         }
