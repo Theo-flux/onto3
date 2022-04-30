@@ -12,13 +12,13 @@ function Home() {
               ONOT3 is the largest digital marketplace for cryptocurrency collectibles and non fungible tokens
             </SubTitle>
           </div>
-          <form className="flex justify-between w-full mx-auto max-w-[500px] items-center bg-[#a5acaf50] px-4 py-2">
+          <form className="flex justify-between w-full mx-auto max-w-[500px] items-center bg-[#a5acaf50] px-2 py-2">
             <input 
                 className="w-[60%] placeholder:text-gray placeholder:font-oxanium placeholder:text-xs md:text-base text-sm text-oxanium bg-transparent py-2 outline-0 text-gray"
                 placeholder="Enter your Email Address"
             />
 
-            <Button className="bg-[#67EFA480] py-8">Stay Updated</Button>
+            <Button className="bg-[#67EFA480]">Stay Updated</Button>
         </form>
         </div>
       </div>
