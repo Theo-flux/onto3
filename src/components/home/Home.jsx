@@ -4,7 +4,7 @@ import { Section, SubTitle, Title, Button } from "../../shared";
 function Home() {
   return (
     <Section className={""}>
-      <div className="mx-auto w-11/12 max-w-7xl pt-36 pb-48 ">
+      <div className="mx-auto w-11/12 max-w-7xl pt-48 pb-16 md:py-32">
         <div className="">
           <div className="w-full mx-auto max-w-[950px] mb-8">
             <Title className="text-center">Discover. Collect. Sell rare collections of NFTs and Artworks</Title>
