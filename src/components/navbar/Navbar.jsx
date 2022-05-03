@@ -7,7 +7,7 @@ const navigations = [
     {
         id: "1",
         name: "Home",
-        link: "#",
+        link: "#home",
     },
 
     {
@@ -19,7 +19,7 @@ const navigations = [
     {
         id: "1",
         name: "Roadmap",
-        link: "#",
+        link: "#roadmap",
     },
 
     {
@@ -43,7 +43,7 @@ const navigations = [
 
 const MobileNav = ({className, handler, isActive}) => {
     return(
-        <div className={`${className} md:hidden text-white absolute w-full h-[100vh] top-[68px] ${isActive ? "right-0" : "right-[-760px]"} transition-all duration-300 delay-700 ease-[cubic-bezier(0.95,0.05,0.795,0.035)] bg-bunker px-4 py-4`}>
+        <div className={`${className} md:hidden text-white absolute z-50 w-full h-[100vh] top-[68px] ${isActive ? "right-0" : "right-[-760px]"} transition-all duration-300 delay-700 ease-[cubic-bezier(0.95,0.05,0.795,0.035)] bg-bunker px-4 py-4`}>
 
             <div className="flex flex-col items-center justify-center">
                 {
@@ -75,7 +75,7 @@ function Navbar() {
     }
 
     return (
-        <Section className="fixed w-full bg-[#0B121890]">
+        <Section className="fixed z-50 w-full bg-[#0B121890]">
             <Nav className="">
                 <div className="flex justify-between items-center">
                     <div className="cursor-pointer flex justify-between items-center w-[100px]">
