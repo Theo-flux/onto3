@@ -11,33 +11,27 @@ const navigations = [
     },
 
     {
-        id: "1",
+        id: "2",
         name: "About",
-        link: "#",
+        link: "#about",
     },
 
     {
-        id: "1",
+        id: "3",
         name: "Roadmap",
         link: "#roadmap",
     },
 
     {
-        id: "1",
-        name: "Collections",
-        link: "#",
-    },
-
-    {
-        id: "1",
-        name: "Team",
-        link: "#",
-    },
-
-    {
-        id: "1",
+        id: "4",
         name: "App (coming soon)",
-        link: "#",
+        link: "#app",
+    },
+
+    {
+        id: "5",
+        name: "Team",
+        link: "#team",
     }
 ]
 
@@ -78,13 +72,13 @@ function Navbar() {
         <Section className="fixed z-50 w-full bg-[#0B121890]">
             <Nav className="">
                 <div className="flex justify-between items-center">
-                    <div className="cursor-pointer flex justify-between items-center w-[100px]">
+                    <a href="#home" className="cursor-pointer flex justify-between items-center w-[100px]">
                         <figure>
                             <img src={onto3Logo} className="w-[35px] h-[35px]" alt="onto3 logo"/>
                         </figure>
 
                         <p className="text-green font-bold font-neue">ONTO3</p>
-                    </div>
+                    </a>
 
                     <div className="hidden md:flex w-[55%] xl:w-[45%] justify-between items-center">
                         {
