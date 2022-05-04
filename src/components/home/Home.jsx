@@ -3,7 +3,7 @@ import { Section, Text, Title, Button } from "../../shared";
 
 function Home() {
   return (
-    <Section id="home" className={""}>
+    <Section id="home" className={"bg-black"}>
       <div className="mx-auto w-11/12 max-w-7xl pt-48 pb-16 md:py-32">
         <div className="">
           <div className="w-full mx-auto max-w-[750px] mb-8">

@@ -4,7 +4,7 @@ import nft from "../../images/nft.png";
 
 function About() {
   return (
-    <Section className={""}>
+    <Section id="about" className={""}>
      <Div>
         <div className="flex flex-col md:flex-row justify-between mb-10">
                 <div className="w-full md:w-[45%]">

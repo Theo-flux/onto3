@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Footer, Home, Navbar, About, Roadmap, AppComing } from '../src/components';
+import { Footer, Home, Navbar, About, Roadmap, AppComing, Faq } from '../src/components';
 import "./assets/css/onto3.css";
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <About/>
       <Roadmap/>
       <AppComing/>
+      <Faq/>
       <Footer/>
     </div>
   )
