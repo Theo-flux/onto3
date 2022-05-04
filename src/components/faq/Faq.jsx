@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Section, Div, SubTitle, Card } from '../../shared';
+import { Section, Div, SubTitle, Tag } from '../../shared';
 import {faqs} from "./faqs";
 
 
@@ -38,6 +38,7 @@ function Faq() {
             <Div className="">
                 <div className="">
                     <div className="text-center mb-8">
+                        <Tag>Questions & Answers</Tag>
                         <SubTitle>Frequently Asked Questions</SubTitle>
                     </div>
                     

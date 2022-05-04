@@ -1,5 +1,5 @@
 import React from 'react'
-import { Div, Section, SubTitle, Text } from '../../shared';
+import { Div, Section, SubTitle, Text, Tag } from '../../shared';
 import {mapData} from "./roadmapData";
 
 const Card = ({data}) => {
@@ -40,6 +40,7 @@ function Roadmap() {
       <Div>
         <div className="">
           <div className="text-center mb-8">
+            <Tag>Our Goals</Tag>
             <SubTitle className="">Roadmap</SubTitle>
             <Text className="">The path to adoption and improving the utility and features of the protocol for players and guilds</Text>
           </div>

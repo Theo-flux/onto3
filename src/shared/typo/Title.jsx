@@ -31,8 +31,19 @@ function Text({className, children}) {
   );
 }
 
+function Tag({className, children}) {
+  return (
+    <h2
+      className={`text-gray font-neue text-green font-bold mb-2 ${className}`}
+    >
+      {children}
+    </h2>
+  );
+}
+
 export {
   Title,
   SubTitle,
-  Text
+  Text,
+  Tag
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Div, SubTitle, Text } from "../../shared";
+import { Section, Div, SubTitle, Text, Tag } from "../../shared";
 import mockup from "../../images/mockup.png";
 
 function AppComing() {
@@ -8,6 +8,7 @@ function AppComing() {
         <Div>
             <div className="flex flex-col md:flex-row md:justify-between items-center w-full mx-auto max-w-5xl">
                 <div className="w-full mb-8 text-center md:w-[50%] md:text-left">
+                    <Tag>Coming soon!</Tag>
                     <SubTitle>ONTO3 mobile app coming soon</SubTitle>
                     <Text>
                         Discover, collect and mint rare NFT artworks and photographs on our mobile app.
