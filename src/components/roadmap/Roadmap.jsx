@@ -6,7 +6,7 @@ const Card = ({data}) => {
   const {id, month, items} = data;
 
   return(
-    <div className={`${id == '2' ? "md:border-x-0 xl:border": ""} border border-[#a5acaf80] w-full md:w-[350px] font-oxanium mb-4 md:m-0`}>
+    <div className={`${id == '2' ? "md:border-x-0 xl:border": ""} backdrop-filter backdrop-blur-lg bg-opacity-30 border border-[#a5acaf50] w-full md:w-[350px] font-oxanium mb-4 md:m-0`}>
       <div className="p-8">
         <div className="animate-pulse flex justify-center items-center w-[35px] h-[35px] bg-gray rotate-45 mb-8">
           <p className="text-white absolute font-bold rotate-[-45deg]">{id}</p>
@@ -36,7 +36,7 @@ const Card = ({data}) => {
 
 function Roadmap() {
   return (
-    <Section id="roadmap">
+    <Section id="roadmap" className={"bg-black"}>
       <Div>
         <div className="">
           <div className="text-center mb-8">

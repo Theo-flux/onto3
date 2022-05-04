@@ -30,8 +30,8 @@ const navigations = [
 
     {
         id: "5",
-        name: "Team",
-        link: "#team",
+        name: "FAQs",
+        link: "#faq",
     }
 ]
 
@@ -69,7 +69,7 @@ function Navbar() {
     }
 
     return (
-        <Section className="fixed z-50 w-full bg-[#0B121890]">
+        <Section className="fixed backdrop-filter backdrop-blur-lg bg-opacity-30 z-50 w-full bg-[#0B1218]">
             <Nav className="">
                 <div className="flex justify-between items-center">
                     <a href="#home" className="cursor-pointer flex justify-between items-center w-[100px]">
