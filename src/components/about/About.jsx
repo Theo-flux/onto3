@@ -14,6 +14,7 @@ function About() {
                     
                         <p className="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis facilis ratione quibusdam in earum similique quos, voluptatem officia accusantium eveniet sed aliquid atque non repellendus dolorum. Praesentium vitae obcaecati asperiores.</p>
                         <p className="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis facilis ratione quibusdam in earum similique quos, voluptatem officia accusantium eveniet sed aliquid atque non repellendus dolorum. Praesentium vitae obcaecati asperiores.</p>
+                        <Button className="bg-[#67EFA480]">Stay Updated</Button>
                     </SubTitle>
                 </div>
                 <div className="w-full md:w-[40%] border border-green mt-8 md:m-0">
