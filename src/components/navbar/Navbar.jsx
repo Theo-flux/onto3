@@ -7,43 +7,37 @@ const navigations = [
     {
         id: "1",
         name: "Home",
-        link: "#",
+        link: "#home",
     },
 
     {
-        id: "1",
+        id: "2",
         name: "About",
-        link: "#",
+        link: "#about",
     },
 
     {
-        id: "1",
+        id: "3",
         name: "Roadmap",
-        link: "#",
+        link: "#roadmap",
     },
 
     {
-        id: "1",
-        name: "Collections",
-        link: "#",
-    },
-
-    {
-        id: "1",
-        name: "Team",
-        link: "#",
-    },
-
-    {
-        id: "1",
+        id: "4",
         name: "App (coming soon)",
-        link: "#",
+        link: "#app",
+    },
+
+    {
+        id: "5",
+        name: "Team",
+        link: "#team",
     }
 ]
 
 const MobileNav = ({className, handler, isActive}) => {
     return(
-        <div className={`${className} md:hidden text-white absolute w-full h-[100vh] top-[68px] ${isActive ? "right-0" : "right-[-760px]"} transition-all duration-300 delay-700 ease-[cubic-bezier(0.95,0.05,0.795,0.035)] bg-bunker px-4 py-4`}>
+        <div className={`${className} md:hidden text-white absolute z-50 w-full h-[100vh] top-[68px] ${isActive ? "right-0" : "right-[-760px]"} transition-all duration-300 delay-700 ease-[cubic-bezier(0.95,0.05,0.795,0.035)] bg-bunker px-4 py-4`}>
 
             <div className="flex flex-col items-center justify-center">
                 {
@@ -75,16 +69,16 @@ function Navbar() {
     }
 
     return (
-        <Section className="fixed w-full bg-[#0B121890]">
+        <Section className="fixed z-50 w-full bg-[#0B121890]">
             <Nav className="">
                 <div className="flex justify-between items-center">
-                    <div className="cursor-pointer flex justify-between items-center w-[100px]">
+                    <a href="#home" className="cursor-pointer flex justify-between items-center w-[100px]">
                         <figure>
                             <img src={onto3Logo} className="w-[35px] h-[35px]" alt="onto3 logo"/>
                         </figure>
 
                         <p className="text-green font-bold font-neue">ONTO3</p>
-                    </div>
+                    </a>
 
                     <div className="hidden md:flex w-[55%] xl:w-[45%] justify-between items-center">
                         {
