@@ -1,11 +1,11 @@
 import React from "react";
-import { Section, Text, Title, Button, Div } from "../../shared";
+import { Section, Text, Title, Tag, Div } from "../../shared";
 import nft from "../../images/nft.png";
 import about from "../../images/about-2.png"
 
 function About() {
   return (
-    <Section className={""}>
+    <Section id="about" className={""}>
      <Div>
         <div className="flex flex-col md:flex-row justify-between mb-10 mt-4 items-center">
           <div>
@@ -15,6 +15,7 @@ function About() {
              <span className="text-white text-lg font-thin"><span className="text-5xl font-bold">.</span> June</span>
              <span className="font-bold text-white block ml-5">2022</span>
           </div>
+
         </div>
         <div className="text-white text-center w-full mx-auto max-w-2xl">
             <p className="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt soluta ratione dolor quisquam numquam ipsam illum consequatur necessitatibus dicta exercitationem nihil voluptatibus, error similique impedit, velit perferendis tempora, beatae accusamus!
