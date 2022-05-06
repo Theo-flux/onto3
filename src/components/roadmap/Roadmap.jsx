@@ -36,7 +36,7 @@ const Card = ({data}) => {
 
 function Roadmap() {
   return (
-    <Section id="roadmap" className={"bg-black"}>
+    <Section id="roadmap" className={"bg-bunker"}>
       <Div>
         <div className="">
           <div className="text-center mb-8">

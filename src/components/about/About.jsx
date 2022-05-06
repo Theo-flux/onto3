@@ -5,7 +5,7 @@ import about from "../../images/about-2.png"
 
 function About() {
   return (
-    <Section id="about" className={""}>
+    <Section id="about" className={"bg-black"}>
      <Div>
         <div className="flex flex-col md:flex-row justify-between mb-10 mt-4 items-center">
           <div>

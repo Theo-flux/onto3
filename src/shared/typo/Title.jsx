@@ -4,7 +4,7 @@ import React, { Children } from "react";
 function Title({className, children}) {
   return (
     <h2
-      className={`text-white font-neue font-bold text-2xl mb-4 md:text-4xl lg:text-6xl md:mb-4 ${className}`}
+      className={`text-white font-neue font-bold text-4xl mb-4 md:text-4xl lg:text-6xl md:mb-4 ${className}`}
     >
       {children}
     </h2>
