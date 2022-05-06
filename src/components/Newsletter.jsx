@@ -9,7 +9,7 @@ function Newsletter({className}) {
             <p className="text-[13px] text-gray">Get early access to our news & releases</p>
         </div>
         
-        <form className="flex justify-between items-center bg-[#a5acaf50] px-2 py-2">
+        <form className="flex justify-between items-center bg-[#a5acaf50] px-2 py-2 border border-gray">
             <input 
                 className="w-[60%] placeholder:text-gray placeholder:font-oxanium placeholder:text-xs md:text-base text-sm text-oxanium bg-transparent py-2 outline-0 text-gray"
                 placeholder="Enter your Email Address"

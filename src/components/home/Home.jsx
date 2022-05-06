@@ -5,9 +5,9 @@ import { useMediaQuery } from "react-responsive";
 
 const Form = ({className}) => {
   return(
-    <form className={`flex justify-between w-full mx-auto max-w-[500px] items-center bg-[#a5acaf50] px-2 py-2 ${className}`}>
+    <form className={`flex justify-between w-full mx-auto max-w-[500px] items-center bg-[#a5acaf50] px-2 py-2 border border-gray ${className}`}>
       <input 
-          className="w-[60%] placeholder:text-gray placeholder:font-oxanium placeholder:text-xs md:text-base text-sm text-oxanium bg-transparent py-2 outline-0 text-gray"
+          className="w-[50%] placeholder:text-gray placeholder:font-oxanium placeholder:text-xs md:text-base text-sm text-oxanium bg-transparent py-2 outline-0 text-gray"
           placeholder="Enter your Email Address"
       />
 
@@ -53,7 +53,7 @@ function Home() {
 
         <div className="bg-bunker absolute w-full bottom-0 md:bottom-[-10px] py-4 shadow-lg">
           <Text className="text-center mb-4">JOIN OUR WAITLIST</Text>
-          <Form className="mx-auto w-4/5"/>
+          <Form className="mx-auto w-11/12"/>
         </div>
       </div>
 
