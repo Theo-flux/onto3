@@ -31,6 +31,19 @@ function Text({className, children}) {
   );
 }
 
+
+function HomeText({className, children}) {
+  return (
+    <h2
+      className={`text-white lg:text-gray font-neue text-sm md:text-base  ${className}`}
+    >
+      {children}
+    </h2>
+  );
+}
+
+
+
 function Tag({className, children}) {
   return (
     <h2
@@ -45,5 +58,6 @@ export {
   Title,
   SubTitle,
   Text,
+  HomeText,
   Tag
 };

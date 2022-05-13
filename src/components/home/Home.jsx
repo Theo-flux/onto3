@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Text, Title, Button } from "../../shared";
+import { Section, Text, HomeText, Title, Button } from "../../shared";
 import phoneMockup from "../../images/logo-mockup.png"
 import { useMediaQuery } from "react-responsive";
 
@@ -18,12 +18,13 @@ const Form = ({className}) => {
 
 function Home() {
   const isMobile = useMediaQuery({ minWidth: 767 })
+
   return (
     <Section id="home" className={"bg-black"}>
       <div 
         className="relative py-48 md:py-48" 
         style={{
-          backgroundImage: `url(${isMobile && phoneMockup})`,
+          backgroundImage: `url(${phoneMockup})`,
           backgroundPosition: 'center',
           backgroundSize: '530px 396px',
           backgroundRepeat: 'no-repeat'
@@ -32,10 +33,9 @@ function Home() {
         <div className="flex relative flex-col md:flex-row md:justify-between md:items-start mb-8 mx-auto w-11/12 max-w-5xl">
           <div className="">
             <Title className="">ONTO3<span className="text-green">.</span></Title>
-            <Text className={"w-full max-w-[350px]"}>
-            The Social Media Blockchain App that allows users to join and launch an exclusive Web 3.0 Communitusing Non-Fungible Tokens for entry access only.
-
-            </Text>
+            <HomeText className={"w-full max-w-[350px]"}>
+              ONOT3 is the largest digital marketplace for cryptocurrency collectibles and non fungible tokens
+            </HomeText>
 
             <div className="flex justify-between items-center w-fit mt-4">
               <Button className="bg-[#67EFA480] w-fit mr-4">Explore Now</Button>
