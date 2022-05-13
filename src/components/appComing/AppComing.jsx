@@ -6,7 +6,7 @@ function AppComing() {
   return (
     <Section id="app">
         <Div>
-            <div className="flex flex-col md:flex-row md:justify-between items-center w-full mx-auto max-w-5xl">
+            <div className="flex flex-col md:flex-row md:justify-between items-center w-full mx-auto max-w-4xl">
                 <div className="w-full mb-8 text-center md:w-[50%] md:text-left">
                     <Tag>Coming soon!</Tag>
                     <SubTitle>ONTO3 mobile app coming soon</SubTitle>

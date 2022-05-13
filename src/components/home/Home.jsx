@@ -25,12 +25,13 @@ function Home() {
         className="relative py-48 md:py-48" 
         style={{
           backgroundImage: `url(${phoneMockup})`,
+          boxShadow: 'inset 0 0 0 100vmax #151B2290',
           backgroundPosition: 'center',
           backgroundSize: '530px 396px',
           backgroundRepeat: 'no-repeat'
          }}
       >
-        <div className="flex relative flex-col md:flex-row md:justify-between md:items-start mb-8 mx-auto w-11/12 max-w-5xl">
+        <div className="flex relative flex-col md:flex-row md:justify-between md:items-start mb-8 mx-auto w-11/12 max-w-4xl">
           <div className="">
             <Title className="">ONTO3<span className="text-green">.</span></Title>
             <HomeText className={"w-full max-w-[350px]"}>
@@ -38,8 +39,8 @@ function Home() {
             </HomeText>
 
             <div className="flex justify-between items-center w-fit mt-4">
-              <Button className="bg-[#67EFA480] w-fit mr-4">Explore Now</Button>
-              <Button className="ring-2 ring-gray ring-inset w-fit">Explore</Button>
+              <Button className="bg-[#67EFA4] w-fit mr-4 text-black font-bold">Explore Now</Button>
+              {/* <Button className="ring-2 ring-gray ring-inset w-fit">Explore</Button> */}
             </div>
           </div>
 
