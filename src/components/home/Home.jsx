@@ -31,7 +31,7 @@ function Home() {
           backgroundRepeat: 'no-repeat'
          }}
       >
-        <div className="flex relative flex-col md:flex-row md:justify-between md:items-start mb-8 mx-auto w-11/12 max-w-5xl">
+        <div className="flex relative flex-col md:flex-row md:justify-between md:items-start mb-8 mx-auto w-11/12 max-w-4xl">
           <div className="">
             <Title className="">ONTO3<span className="text-green">.</span></Title>
             <HomeText className={"w-full max-w-[350px]"}>

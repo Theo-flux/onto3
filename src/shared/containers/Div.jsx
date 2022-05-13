@@ -10,7 +10,7 @@ const Div = ({children, className, ...restProps}) => {
 
 const Nav = ({children, className, ...restProps}) => {
     return(
-        <div {...restProps} className = {`mx-auto w-11/12 max-w-5xl py-4 ${className}`}>
+        <div {...restProps} className = {`mx-auto w-11/12 max-w-4xl py-4 ${className}`}>
             { children }
         </div>
     )
