@@ -35,7 +35,8 @@ function Home() {
           <div className="">
             <Title className="">ONTO3<span className="text-green">.</span></Title>
             <HomeText className={"w-full max-w-[350px]"}>
-              ONOT3 is the largest digital marketplace for cryptocurrency collectibles and non fungible tokens
+            The Social Media Blockchain App that allows users to join and launch exclusive
+              Web 3.0 Communities using Non-Fungible Tokens for entry access only.
             </HomeText>
 
             <div className="flex justify-between items-center w-fit mt-4">
