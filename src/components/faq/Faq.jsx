@@ -7,19 +7,21 @@ function FaqCard({faq, index, toggleFaq, handler}){
     const {question, answer} = faq;
 
     return(
-        <div className="backdrop-filter backdrop-blur-lg bg-opacity-30 bg-bunker p-4 md:p-4">
+        <div>
+        <div className={`bg-bunker p-4`}>
             <div onClick={() => {handler(index)}} className="text-white flex justify-between items-center cursor-pointer">
                 <h5 className="font-oxanium font-medium text-md md:text-xl">{question}</h5>
                 <i className={`font-oxanium text-2xl ${toggleFaq === index ? "ri-subtract-line" : "ri-add-line"}`}></i>
             </div>
-
-            {
+        </div>
+             {
                 toggleFaq === index &&
-                <div className="mt-4">
+                <div className={`p-4 pt-0 bg-bunker ${toggleFaq === index ? "max-h-fit" : "max-h-[0] overflow-hidden border border-white"}`}>
                     <p className="text-gray text-sm md:text-base">{ answer }</p>
                 </div> 
             }
         </div>
+
     )
 }
 
