@@ -1,6 +1,7 @@
 import React from 'react'
 import { Div, Section, SubTitle, Text, Tag } from '../../shared';
 import {mapData} from "./roadmapData";
+import map from '../../images/map.png'
 
 const Card = ({item}) => {
 
@@ -20,7 +21,7 @@ const Card = ({item}) => {
               {
                 item.items.map((el, index) => {
                   return(
-                    <p className={`mb-2`}>{el}</p>
+                    <p key={index} className={`mb-2`}>{el}</p>
                   )
                 })
               }
@@ -39,7 +40,15 @@ const Card = ({item}) => {
 
 function Roadmap() {
   return (
-    <Section id="roadmap" className={"bg-bunker"}>
+    <Section id="roadmap" className={"bg-bunker"}
+      style={{
+        background: `url(${map})`,
+        boxShadow: 'inset 0 0 0 100vmax #151B2290',
+        backgroundPosition: 'center',
+        backgroundSize: 'contain',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
       <Div>
         <div className="">
           <div className="text-center mb-8">

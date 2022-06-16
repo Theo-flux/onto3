@@ -8,7 +8,7 @@ function Video() {
     <Section className="bg-black">
         <Div>
             <div className="flex flex-col md:flex-row md:justify-between items-center w-full mx-auto max-w-4xl">
-            <iframe src="https://drive.google.com/file/d/1cfP4uMaFIRpFK4bAIujc7eYhszfGOqIv/preview" frameborder="0" width="100%" height="480px" allow="autoplay;"></iframe>
+            <iframe src="https://drive.google.com/file/d/1cfP4uMaFIRpFK4bAIujc7eYhszfGOqIv/preview" frameBorder="0" width="100%" height="480px" allow="autoplay;"></iframe>
             </div>
         </Div>
     </Section>
