@@ -53,29 +53,29 @@ const onto3 = [
         ]
     },
 
-    {
-        id: "2",
-        category: "Resources",
-        items: [
-            {
-                id: "1",
-                name: "Help Center",
-                link: "#"
-            },
+    // {
+    //     id: "2",
+    //     category: "Resources",
+    //     items: [
+    //         {
+    //             id: "1",
+    //             name: "Help Center",
+    //             link: "#"
+    //         },
 
-            {
-                id: "2",
-                name: "NewsLetter",
-                link: "#"
-            },
+    //         {
+    //             id: "2",
+    //             name: "NewsLetter",
+    //             link: "#"
+    //         },
 
-            {
-                id: "3",
-                name: "Docs",
-                link: "#"
-            }
-        ]
-    },
+    //         {
+    //             id: "3",
+    //             name: "Docs",
+    //             link: "#"
+    //         }
+    //     ]
+    // },
     
     {
         id: "3",

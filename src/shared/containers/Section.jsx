@@ -2,7 +2,7 @@ import React from 'react';
 
 const Section = ({children, className, ...restProps}) => {
     return(
-        <section {...restProps} className={`${className}`}>
+        <section {...restProps} className={`reveal ${className}`}>
             { children }
         </section>
     )
