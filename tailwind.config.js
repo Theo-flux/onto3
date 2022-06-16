@@ -12,11 +12,14 @@ module.exports = {
       white: "var(--color-white)",
       green: "var(--color-green)",
       bunker: "var(--color-bunker)",
-      gray: "var(--color-gray)"
+      gray: "var(--color-gray)",
+      darkgray: "var(--color-darkgray)",
+      darkgreen: "var(--color-darkgreen)"
     },
 
     fontFamily: {
       oxanium: ['oxanium', defaultTheme.fontFamily.sans],
+      bebas: ['bebas', defaultTheme.fontFamily.sans],
       neue: ['neue', defaultTheme.fontFamily.sans]
     },
     extend: {},

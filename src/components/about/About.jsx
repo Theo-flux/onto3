@@ -1,6 +1,5 @@
 import React from "react";
 import { Section, Text, Title, Tag, Div } from "../../shared";
-import nft from "../../images/nft.png";
 import about from "../../images/about-2.png";
 
 function About() {

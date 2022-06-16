@@ -1,7 +1,7 @@
 export const faqs = [
     {
         id: "1",
-        question: "How do I create an ONTO0 account?",
+        question: "How do I create an ONTO3 account?",
         answer: `
             you'll need digital currency, a crypto wallet, and an ONTO3 Account to start buying
             NFT Communities or selling your NFTs to grant access into your own Community Profile
@@ -30,7 +30,7 @@ export const faqs = [
 
     {
         id: "4",
-        question: "How do i Know my profile will not get leaked and what are your security protocols?",
+        question: "How secure is my profile?",
         answer: `
             ONTO3 strives to be a trustworthy and secure place to launch Web 3.0 NFT
             Social Profiles. Finding and eliminating current vulnerabilities is a top priority of

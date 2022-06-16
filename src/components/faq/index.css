@@ -1,0 +1,6 @@
+.answer {
+    overflow: hidden;
+    max-height: fit-content;
+    transition: max-height 650ms;
+}
+
