@@ -2,23 +2,28 @@ import React from 'react'
 import { Div, Section, SubTitle, Text, Tag } from '../../shared';
 import {mapData} from "./roadmapData";
 
-const Card = ({data}) => {
+const Card = ({item}) => {
 
   return(
-    <div className={`relative hover:scale-125 transition-all duration-500 ease-in-out`}>
+    <div className={`relative w-full mx-auto  max-w-[200px] hover:scale-110 transition-all duration-500 ease-in-out`}>
       <div className={``}>
         <div className={`absolute grid grid-cols-1 z-30 top-[20px] left-[-25px] bg-green w-full pt-12 px-4 rounded-md`}>
           <div className={``}></div>
           <div className={`place-self-end flex flex-col justify-center items-center`}>
             <p className={`tracking-[.1rem] font-bebas font-bold`}>STEP</p>
-            <h1 className={`text-5xl font-bebas font-bold`}>O6</h1>
+            <h1 className={`text-5xl font-bebas font-bold`}>{item.id}</h1>
           </div> 
         </div>
-        <div className={`max-h-fit bg-gray pt-40 pb-4 px-4 max-w-[200px] rounded-md`}>
-            <h1 classname={``}>LAUNCH</h1>
-            <div className={`mt-4 text-sm font-quinta`}>
-              <p className={`mb-2`}>Launch of ONTO3 Mobile App to iOS and Android app stores with support for future revisions.</p>
-              <p className={``}>Continue News Updates, and Marketing.</p>
+        <div className={`max-h-fit bg-gray pt-40 pb-4 px-4 rounded-md`}>
+            <h1 className={`text-lg text-black font-bold`}>{item.step}</h1>
+            <div className={`mt-2 text-sm`}>
+              {
+                item.items.map((el, index) => {
+                  return(
+                    <p className={`mb-2`}>{el}</p>
+                  )
+                })
+              }
             </div>
         </div>
       </div>
@@ -43,8 +48,14 @@ function Roadmap() {
             <Text className="w-[100%] mx-auto max-w-[500px]">The path to adoption and improving the utility and features of the protocol for players and guilds</Text>
           </div>
 
-          <div className="flex flex-col md:flex-row md:justify-between md:items-center mx-auto w-full max-w-[1100px]">
-            <Card />
+          <div className="grid place-content-center grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            {
+              mapData.map((item, index) => {
+                return(
+                  <Card key={index} item={item}/>
+                )
+              })
+            }
           </div>
         </div>
       </Div>
