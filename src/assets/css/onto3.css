@@ -6,6 +6,9 @@
     --color-white: #ffffff;
     --color-bunker : #0B1218;
     --color-gray: #a5acaf;
+    --color-lightgray: #9c9da0;
+    --color-darkgray: #747578;
+    --color-darkgreen: #45cd82;
 }
 
 @tailwind base;
@@ -74,4 +77,36 @@
     font-family: neue;
     font-weight: 500;
     src: url("../fonts/neue-machina/NeueMachina-Ultrabold.otf");
+}
+
+
+/* BebasNeue Font */
+@font-face {
+    font-family: bebas;
+    font-weight: 300;
+    src: url("../fonts/bebas/BebasNeue-Thin.otf");
+}
+
+@font-face {
+    font-family: bebas;
+    font-weight: 400;
+    src: url("../fonts/bebas/BebasNeue-Light.otf");
+}
+
+@font-face {
+    font-family: bebas;
+    font-weight: 500;
+    src: url("../fonts/bebas/BebasNeue-Regular.otf");
+}
+
+@font-face {
+    font-family: bebas;
+    font-weight: 600;
+    src: url("../fonts/bebas/BebasNeue-Book.otf");
+}
+
+@font-face {
+    font-family: bebas;
+    font-weight: 700;
+    src: url("../fonts/bebas/BebasNeue-Bold.otf");
 }

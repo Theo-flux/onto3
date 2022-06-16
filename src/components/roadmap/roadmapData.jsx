@@ -43,7 +43,7 @@ export const mapData = [
 
      {
         id: "05",
-        step: "LAUNCH",
+        step: "LAUNCH", 
         items: [
             "Launch of ONTO3 Mobile App to iOS and Android app stores with support for future revisions.",
             "Continue News Updates, and Marketing."
