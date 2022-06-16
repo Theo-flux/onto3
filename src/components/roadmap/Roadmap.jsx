@@ -5,7 +5,7 @@ import {mapData} from "./roadmapData";
 const Card = ({data}) => {
 
   return(
-    <div className={`relative`}>
+    <div className={`relative hover:scale-125 transition-all duration-500 ease-in-out`}>
       <div className={``}>
         <div className={`absolute grid grid-cols-1 z-30 top-[20px] left-[-25px] bg-green w-full pt-12 px-4 rounded-md`}>
           <div className={``}></div>
@@ -22,10 +22,10 @@ const Card = ({data}) => {
             </div>
         </div>
       </div>
-      <div className={`absolute top-[100px] left-[-15px] bg-green h-[100px] w-[11px]`}>
+      <div className={`rounded absolute top-[100px] left-[-15px] bg-green h-[100px] w-[11px]`}>
 
       </div>
-      <div className={`absolute top-[100px] left-[-20px] bg-darkgreen skew-x-6 transform-gpu h-[100px] w-[10px]`}>
+      <div className={`rounded absolute top-[100px] left-[-20px] bg-darkgreen skew-x-6 transform-gpu h-[100px] w-[10px]`}>
 
       </div>
     </div>
