@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Text, HomeText, Title, Button } from "../../shared";
+import { Text, HomeText, Title, Button } from "../../shared";
 import phoneMockup from "../../images/logo-mockup.png"
 import { useMediaQuery } from "react-responsive";
 
@@ -20,7 +20,7 @@ function Home() {
   const isMobile = useMediaQuery({ minWidth: 767 })
 
   return (
-    <Section id="home" className={"bg-black"}>
+    <section id="home" className={"bg-black"}>
       <div 
         className="relative py-48 md:py-48" 
         style={{
@@ -60,7 +60,7 @@ function Home() {
         </div>
       </div>
 
-    </Section>
+    </section>
   )
 }
 
