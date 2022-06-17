@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Section, Div, Nav, Button } from "../../shared";
+import { Nav, Button } from "../../shared";
 import onto3Logo from "../../images/onto3-logo.svg";
 import "./nav.css";
 
@@ -69,7 +69,7 @@ function Navbar() {
     }
 
     return (
-        <Section className="fixed backdrop-filter backdrop-blur-lg bg-opacity-30 z-50 w-full bg-[#0B1218]">
+        <section className="fixed backdrop-filter backdrop-blur-lg bg-opacity-30 z-50 w-full bg-[#0B1218]">
             <Nav className="">
                 <div className="flex justify-between items-center">
                     <a href="#home" className="cursor-pointer flex justify-between items-center w-[100px]">
@@ -110,7 +110,7 @@ function Navbar() {
         
             <MobileNav isActive={toggleClass} handler={handleClassToggle}/>
             
-        </Section>
+        </section>
     )
 }
 
