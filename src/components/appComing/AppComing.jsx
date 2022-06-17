@@ -1,7 +1,6 @@
 import React from "react";
 import { Section, Div, SubTitle, Text, Tag } from "../../shared";
 import mockup from "../../images/mockup.png";
-import x1 from "../../images/x1.png";
 
 function AppComing() {
   return (
@@ -18,7 +17,7 @@ function AppComing() {
                 </div>
 
                 <figure className="w-full w-[200px] md:w-[250px]">
-                    <img src={x1} className="w-[100%]" alt="mockup"/>
+                    <img src={mockup} className="w-[100%]" alt="mockup"/>
                 </figure>
             </div>
         </Div>
