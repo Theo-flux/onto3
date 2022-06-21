@@ -6,7 +6,7 @@ function Modal() {
     const { isModalOpen, handleModal } = useContext(AppContext);
 
     return (
-        <section className={`${isModalOpen ? "top-[0px] opacity-100  z-50" : "opacity-0 top-[-10px] z-10" } border fixed left-0 w-full h-[100%] backdrop-filter backdrop-blur-lg bg-opacity-30 bg-[#0B1218] transition-all duration-500 ease-in-out `}>
+        <section className={`${isModalOpen ? "top-[0px] opacity-100  z-50" : "opacity-0 top-[-10px] z-0" } border fixed left-0 w-full h-[100%] backdrop-filter backdrop-blur-lg bg-opacity-30 bg-[#0B1218] transition-all duration-500 ease-in-out `}>
             <Div>
                 <div className={`flex justify-center items-center`}>
                     <div className={`${isModalOpen ? "-translate-y-6 opacity-100 delay-70" : "opacity-0 translate-y-0 z-10" } bg-white w-full max-w-lg mt-24 px-4 transition-all duration-500 ease-in-out`}>
