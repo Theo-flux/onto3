@@ -1,5 +1,6 @@
-import React, {useState} from "react";
+import React, { useState, useContext } from "react";
 import { Nav, Button } from "../../shared";
+import { AppContext } from '../../context/appContext'
 import onto3Logo from "../../images/onto3-logo.svg";
 import "./nav.css";
 
@@ -35,9 +36,9 @@ const navigations = [
     }
 ]
 
-const MobileNav = ({className, handler, isActive}) => {
+const MobileNav = ({className, handler, handleModal, isActive}) => {
     return(
-        <div className={`${className} md:hidden text-white absolute z-50 w-full h-[100vh] top-[68px] ${isActive ? "right-0" : "right-[-760px]"} transition-all duration-300 delay-700 ease-[cubic-bezier(0.95,0.05,0.795,0.035)] bg-bunker px-4 py-4`}>
+        <div className={`${className} md:hidden text-white absolute z-40 w-full h-[100vh] top-[68px] ${isActive ? "right-0" : "right-[-760px]"} transition-all duration-300 delay-700 ease-[cubic-bezier(0.95,0.05,0.795,0.035)] bg-bunker px-4 py-4`}>
 
             <div className="flex flex-col items-center justify-center">
                 {
@@ -54,7 +55,10 @@ const MobileNav = ({className, handler, isActive}) => {
                         )
                     })
                 }
-                <Button onClick={() => handler()} className="bg-[#67EFA480] w-full text-center py-4">Launch App</Button>
+                <Button onClick={() => {
+                    handler();
+                    handleModal();
+                }} className="bg-[#67EFA480] w-full text-center py-4">Launch App</Button>
             </div>
             
         </div>
@@ -63,13 +67,14 @@ const MobileNav = ({className, handler, isActive}) => {
 
 function Navbar() {
     const [toggleClass, setToggleClass] = useState(false);
+    const { isModalOpen, handleModal } = useContext(AppContext);
 
     function handleClassToggle(){
         setToggleClass(!toggleClass);
     }
 
     return (
-        <section className="fixed backdrop-filter backdrop-blur-lg bg-opacity-30 z-50 w-full bg-[#0B1218]">
+        <section className="fixed backdrop-filter backdrop-blur-lg bg-opacity-30 z-40 w-full bg-[#0B1218]">
             <Nav className="">
                 <div className="flex justify-between items-center">
                     <a href="#home" className="cursor-pointer flex justify-between items-center w-[100px]">
@@ -97,7 +102,7 @@ function Navbar() {
                     </div>
 
                     <div className="hidden md:block">
-                        <Button className="bg-[#67EFA480]">Launch App</Button>
+                        <Button onClick={() => handleModal()} className="bg-[#67EFA480]">Launch App</Button>
                     </div>
 
                     <div onClick={() => handleClassToggle()} id="navMenu" className={`${toggleClass ? "active" : ""} md:hidden`}>
@@ -108,7 +113,7 @@ function Navbar() {
                 </div>
             </Nav>
         
-            <MobileNav isActive={toggleClass} handler={handleClassToggle}/>
+            <MobileNav isActive={toggleClass} handler={handleClassToggle} handleModal={handleModal}/>
             
         </section>
     )

@@ -6,3 +6,4 @@ export { default as Roadmap } from "./roadmap/Roadmap";
 export { default as AppComing } from "./appComing/AppComing";
 export { default as Faq } from "./faq/Faq";
 export { default as Video } from "./video/Video";
+export { default as Modal } from "./modal/Modal";

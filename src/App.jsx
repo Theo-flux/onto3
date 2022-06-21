@@ -1,8 +1,14 @@
-import { useEffect } from 'react'
-import { Footer, Home, Navbar, About, Video, AppComing, Faq, Roadmap } from '../src/components';
+import { useEffect, useContext } from 'react'
+import { Footer, Home, Navbar, About, Video, AppComing, Faq, Roadmap, Modal } from '../src/components';
+import { AppContext } from './context/appContext'
+
 import "./assets/css/onto3.css";
 
+
+
 function App() {
+
+  const { isModalOpen } = useContext(AppContext);
 
   function reveal() {
     var reveals = document.querySelectorAll(".reveal");
@@ -27,7 +33,11 @@ function App() {
   reveal();
 
   return (
-    <div className="">
+    <div className="relative">
+      {
+        isModalOpen && <Modal />
+      }
+      <Modal/>
       <Navbar/>
       <Home/>
       <About/>
