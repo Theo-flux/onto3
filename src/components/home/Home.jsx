@@ -40,9 +40,9 @@ function Home() {
             </HomeText>
 
             <div className="flex justify-between items-center w-fit mt-4">
-              <Button className="bg-[#67EFA4] w-fit mr-4 text-black font-bold">Explore Now</Button>
+              <Button className="bg-[#67EFA4] w-fit mr-4 text-black font-bold"><a href='#about'>Explore Now</a></Button>
               {/* <Button className="ring-2 ring-gray ring-inset w-fit">Explore</Button> */}
-            </div>
+            </div> 
           </div>
 
           <div className="absolute top-[-90px] md:top-0 right-0 flex justify-between items-center text-white w-fit">
