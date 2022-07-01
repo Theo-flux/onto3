@@ -4,10 +4,20 @@ import onto3Logo from "../../images/onto3-logo.svg";
 import Newsletter from "../Newsletter";
 
 const socials = [
-    "ri-twitter-fill",
-    "ri-discord-fill",
-    "ri-linkedin-fill",
-    "ri-facebook-box-fill"
+    {
+        name:  "ri-twitter-fill",
+        link: "https://twitter.com/onto3app"
+    },
+
+    {
+        name:  "ri-discord-fill",
+        link: "https://discord.com/invite/Onto3#6157"
+    },
+
+    {
+        name:  "ri-instagram-fill",
+        link: "https://www.instagram.com/onto3app/"
+    }
 ]
 
 const onto3 = [
@@ -84,20 +94,20 @@ const onto3 = [
             {
                 id: "1",
                 name: "All NFTs",
-                link: "#"
+                link: "https://opensea.io/collection/onto3app"
             },
 
-            {
-                id: "2",
-                name: "Photography",
-                link: "#"
-            },
+        //     {
+        //         id: "2",
+        //         name: "Photography",
+        //         link: "#"
+        //     },
 
-            {
-                id: "3",
-                name: "3D Arts",
-                link: "#"
-            }
+        //     {
+        //         id: "3",
+        //         name: "3D Arts",
+        //         link: "#"
+        //     }
         ]
     },
 ]
@@ -138,15 +148,16 @@ function Footer() {
                 <div className="flex flex-col md:flex-row justify-between md:items-center">
                     <p className="font-oxanium text-gray font-medium mb-4 md:m-0 text-sm lg:text-base">&copy; ONTO3 NFT 2022. All rights reserved.</p>
 
-                    <div className="flex justify-between items-center w-[150px]">
+                    <div className="flex justify-between items-center w-[100px]">
                         {
                             socials.map((medium, index) => {
                                 return(
-                                    <i 
-                                        key={index} 
-                                        className={`${medium} text-green text-xl`}
+                                    <a
+                                        key={index}
+                                        href={medium.link}
                                     >
-                                    </i>
+                                        <i className={`${medium.name} text-green text-xl`}></i>
+                                    </a>
                                 )
                             })
                         }
