@@ -153,6 +153,7 @@ function Footer() {
                             socials.map((medium, index) => {
                                 return(
                                     <a
+                                        target='_blank'
                                         key={index}
                                         href={medium.link}
                                     >
