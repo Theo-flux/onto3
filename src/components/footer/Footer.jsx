@@ -28,37 +28,25 @@ const onto3 = [
             {
                 id: "1",
                 name: "Home",
-                link: "#"
+                link: "#home"
             },
 
             {
                 id: "2",
                 name: "About",
-                link: "#"
+                link: "#about"
             },
 
             {
                 id: "3",
                 name: "Roadmap",
-                link: "#"
-            },
-
-            {
-                id: "4",
-                name: "Collections",
-                link: "#"
-            },
-            
-            {
-                id: "5",
-                name: "Team",
-                link: "#"
+                link: "#roadmap"
             },
 
             {
                 id: "6",
                 name: "Mobile App",
-                link: "#"
+                link: "#app"
             }
         ]
     },
