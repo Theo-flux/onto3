@@ -120,7 +120,7 @@ function Footer() {
                                         {
                                             el.items.map((item, index) => {
                                                 return(
-                                                    <a key={index} className={`text-gray cursor-pointer ${index == el.items.length - 1 ? "mb-0" : "mb-4"}`}>{item.name}</a>
+                                                    <a key={index} href={item.link} className={`text-gray cursor-pointer ${index == el.items.length - 1 ? "mb-0" : "mb-4"}`}>{item.name}</a>
                                                 )
                                             })
                                         }
