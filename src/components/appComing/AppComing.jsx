@@ -11,8 +11,7 @@ function AppComing() {
                     <Tag>Coming soon!</Tag>
                     <SubTitle>ONTO3 mobile app coming soon</SubTitle>
                     <Text>
-                        Discover, collect and mint rare NFT artworks and photographs on our mobile app.
-                        And of cause security of your assets is our top priority.
+                        Discover, collect and mint exclusive NFT Communities on our mobile app.
                     </Text>
                 </div>
 

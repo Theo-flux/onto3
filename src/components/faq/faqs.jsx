@@ -3,7 +3,7 @@ export const faqs = [
         id: "1",
         question: "How do I create an ONTO3 account?",
         answer: `
-            you'll need digital currency, a crypto wallet, and an ONTO3 Account to start buying
+            You will need digital currency, a crypto wallet, and an ONTO3 Account to start buying
             NFT Communities or selling your NFTs to grant access into your own Community Profile
             on ONTO3 App.
         `
@@ -11,7 +11,7 @@ export const faqs = [
 
     {
         id: "2",
-        question: "How do i sell an Nft and create a profile on ONTO3?",
+        question: "How do I sell an Nft and create a profile on ONTO3?",
         answer: `
         Ready to create your first NFT Community Profile? This guide explains how to get
         started. First you must connect your wallet and have an account created on ONTO3. click to check our docs`
@@ -19,7 +19,7 @@ export const faqs = [
 
     {
         id: "3",
-        question: "What can i post on my Profile?",
+        question: "What can I post on my Profile?",
         answer: `
         ONTO3 provides the tools needed to share a wide range of “posts” into your
         NFTs Community Profile 

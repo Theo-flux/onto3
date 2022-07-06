@@ -48,7 +48,7 @@ function Home() {
           <div className="absolute top-[-90px] md:top-0 right-0 flex justify-between items-center text-white w-fit">
             <p className="rotate-[-90deg] text-[10px] md:text-sm font-oxanium">COMING</p>
             <div className="text-[12px] md:text-base p-2 border border-white font-oxanium font-bold w-fit">
-              <p>June</p> 
+              <p>July</p> 
               <p>2022</p>
             </div>
           </div>
