@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
+import { AppContext } from '../../context/appContext'
 import { Text, HomeText, Title, Button } from "../../shared";
 import phoneMockup from "../../images/logo-mockup.png"
 import { useMediaQuery } from "react-responsive";
@@ -18,6 +19,7 @@ const Form = ({className}) => {
 
 function Home() {
   const isMobile = useMediaQuery({ minWidth: 767 })
+  const { handleModal } = useContext(AppContext);
 
   return (
     <section id="home" className={"bg-black"}>
@@ -40,7 +42,7 @@ function Home() {
             </HomeText>
 
             <div className="flex justify-between items-center w-fit mt-4">
-              <Button className="bg-[#67EFA4] w-fit mr-4 text-black font-bold"><a href='#about'>Explore Now</a></Button>
+              <Button onClick={() => handleModal()} className="bg-[#67EFA4] w-fit mr-4 text-black font-bold"><a href=''>Launch Now</a></Button>
               {/* <Button className="ring-2 ring-gray ring-inset w-fit">Explore</Button> */}
             </div> 
           </div>

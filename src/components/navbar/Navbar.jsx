@@ -67,7 +67,7 @@ const MobileNav = ({className, handler, handleModal, isActive}) => {
 
 function Navbar() {
     const [toggleClass, setToggleClass] = useState(false);
-    const { isModalOpen, handleModal } = useContext(AppContext);
+    const { handleModal } = useContext(AppContext);
 
     function handleClassToggle(){
         setToggleClass(!toggleClass);
