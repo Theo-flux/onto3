@@ -42,7 +42,7 @@ function Home() {
             </HomeText>
 
             <div className="flex justify-between items-center w-fit mt-4">
-              <Button onClick={() => handleModal()} className="bg-[#67EFA4] w-fit mr-4 text-black font-bold"><a href=''>Launch Now</a></Button>
+              <Button onClick={() => handleModal()} className="bg-[#67EFA4] w-fit mr-4 text-black font-bold">Launch Now</Button>
               {/* <Button className="ring-2 ring-gray ring-inset w-fit">Explore</Button> */}
             </div> 
           </div>
