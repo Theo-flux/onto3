@@ -136,7 +136,7 @@ function Footer() {
                 <div className="flex flex-col md:flex-row justify-between md:items-center">
                     <p className="font-oxanium text-gray font-medium mb-4 md:m-0 text-sm lg:text-base">&copy; ONTO3 NFT 2022. All rights reserved.</p>
 
-                    <div className="flex justify-between items-center w-[100px]">
+                    <div className="flex justify-between items-center w-[120px]">
                         {
                             socials.map((medium, index) => {
                                 return(
@@ -145,7 +145,7 @@ function Footer() {
                                         key={index}
                                         href={medium.link}
                                     >
-                                        <i className={`${medium.name} text-green text-xl`}></i>
+                                        <i className={`${medium.name} text-green text-3xl`}></i>
                                     </a>
                                 )
                             })

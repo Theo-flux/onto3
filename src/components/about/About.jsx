@@ -37,7 +37,7 @@ function About() {
         <div className="flex flex-col md:flex-wrap md:flex-row justify-between items-start font-oxanium">
           <div className="order-2 mb-8 md:mb-0 md:order-1 w-full max-w-[300px]">
             <h3 className="text-2xl text-white">About <span className="text-green">Us</span></h3>
-            <Text className="text-white mt-3 text-gray lg:text-justify">
+            <Text className="text-white mt-3 text-gray lg:text-left">
               We are a team of creatives, innovators, and Web 3.0 enthusiasts who believe in the rights
             of ownership. Using Blockchain analytics such as market intelligence, trend analysis and
             an investigation among emerging spaces, our team at ONTO3 has successfully developed
@@ -53,7 +53,7 @@ function About() {
 
           <div className="font-oxanium order-3 md:order-3 w-full max-w-[300px]">
             <h3 className="text-2xl text-white">Why <span className="text-green">Us</span></h3>
-            <Text className="text-white mt-3 text-gray  lg:text-justify">
+            <Text className="text-white mt-3 text-gray  lg:text-left">
             Our App transforms your token into a collectible by giving it more value and benefits
             upon purchase. We provide the tools needed to view, engage, and organize your
             community all on one single App. ONTO3 allows both the seller and the owner to do
