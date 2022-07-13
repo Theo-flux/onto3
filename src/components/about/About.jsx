@@ -13,7 +13,7 @@ function About() {
             <span className="text-white">ONTO3 <span className="text-green border-b-2">APP</span></span>
           </div>
           <div className="font-oxanium flex flex-col justify-center items-center">
-             <span className="text-white text-lg font-thin"><span className="text-5xl font-bold">.</span> June</span>
+             <span className="text-white text-lg font-thin"><span className="text-5xl font-bold">.</span> July</span>
              <span className="font-bold text-white block">2022</span>
           </div>
         </div>
